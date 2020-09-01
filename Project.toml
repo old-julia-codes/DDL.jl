@@ -1,0 +1,21 @@
+name = "DDL"
+uuid = "5531f5ab-fecc-4be9-b460-37ad9f38e535"
+authors = ["SubhadityMukherjee <msubhaditya@gmail.com> and contributors"]
+version = "0.1.0"
+
+[deps]
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+Tar = "a4e569a6-e804-4fa4-b0f3-eef7a1d5b13e"
+ZipFile = "a5390f91-8eb1-5f08-bee0-b1d1ffed6cea"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
