@@ -6,4 +6,4 @@
 
 ## Documentation!!
 
-- Please go to this link : [Docs](https://subhadityamukherjee.github.io/DDL.jl/)
+- Please go to this link : [Docs](https://subhadityamukherjee.github.io/DDL.jl/build/index.html
