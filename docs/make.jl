@@ -1,17 +1,20 @@
-using Documenter
-using DDL
+push!(LOAD_PATH,"../src/")
+using Documenter, classification, Datasets
+# Documenter.makedocs(
+#     root = ".",
+#     docs = "docs",
+#     clean = true,
+#     doctest = true,
+#     repo = "",
+#     sitename = "DDL Documentation",
+#     expandfirst = [],
+#     pages = [
+#         "Index" => "index.md",
+#     ]
+
+# )
 
 Documenter.makedocs(
-    root = ".",
-    source = "docs",
-    build = "build",
-    clean = true,
-    doctest = true,
-    repo = "",
     sitename = "DDL Documentation",
-    expandfirst = [],
-    pages = [
-        "Index" => "index.md",
-    ]
-
+    repo = "https://github.com/SubhadityaMukherjee/DDL.jl"
 )
