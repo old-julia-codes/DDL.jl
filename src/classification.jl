@@ -110,20 +110,20 @@ function load_train_imgs(labels, train_img_paths, dims = (128,128))
     end
 end
 
-
+end
 
 # EXAMPLE WORKFLOW
 
 # load filepaths, images
-main_path = "/home/subhaditya/Desktop/Datasets/asl-downloaded/"
+#main_path = "/home/subhaditya/Desktop/Datasets/asl-downloaded/"
 
-labels, paths = from_folder(main_path)
+#labels, paths = from_folder(main_path)
 
 # label it in whatever way you want
-@info labelFromPattern(paths, examplelabeller)[1:3]
+#@info labelFromPattern(paths, examplelabeller)[1:3]
 
 #one hot encoded labels (for classification)
-labels,d = encoder(labels)
+#labels,d = encoder(labels)
 
 
 
